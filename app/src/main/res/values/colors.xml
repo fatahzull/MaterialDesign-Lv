@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F50057</color>
+    <color name="colorPrimaryDark">#C51162</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#FF80AB</color>
+
+
+    <color name="col_green">#2ecc71</color>
+    <color name="col_red">#cb242a</color>
+    <color name="col_darkGrey">#434a55</color>
+    <color name="col_lightGrey">#F5F7FA</color>
+    <color name="col_lightGrey2">#f1f2f6</color>
+    <color name="col_lightGrey3">#BDC3C7</color>
+    <color name="col_lightGrey4">#808080</color>
+    <color name="col_lightGrey5">#f1f1f2</color>
+    <color name="col_flat_blue">#37b0e6</color>
+    <color name="col_white">#ffffff</color>
+    <color name="col_greensea">#16a085</color>
+    <color name="col_turqoise">#1abc9c</color>
+    <color name="col_turqoise1">#17A98C</color>
+    <color name="col_turqoise2">#15967D</color>
+    <color name="col_actionbar">#434a55</color>
+    <color name="black">#000000</color>
+    <color name="trans">@android:color/transparent</color>
+
+    <color name="mj_color">#004990</color>
+    <color name="unactive">#688cb0</color>
+    <color name="tabMedium">#818285</color>
+    <color name="tabDark">#000000</color>
+    <color name="tabTransparent">#10ffffff</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey_light">#7f7f7f</color>
+    <color name="grey_very_light">#C0C0C0</color>
+    <color name="grey_dark">#565656</color>
+    <color name="grey_bg">#626262</color>
+    <color name="grey_out">#D4D4D4</color>
+    <color name="green">#00FF00</color>
+    <color name="red">#bf0000</color>
+    <color name="lightRed">#e50000</color>
+    <color name="actionBarColor">#717074</color>
+    <color name="background">#c9c9c9</color>
+    <color name="trans_darkGrey">#D9434a55</color>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/LinearLayout1"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@color/col_lightGrey2"
+	android:orientation="vertical" >
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/background_with_shadow"
+		android:orientation="vertical"
+		android:padding="10dp" >
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<ImageView
+                android:id="@+id/coverImg"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/app_name"
+                android:paddingBottom="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pkj1" />
+
+			<ImageView
+				android:id="@+id/pay_img"
+				android:layout_width="match_parent"
+				android:layout_height="180dp"
+				android:adjustViewBounds="true"
+				android:contentDescription="@string/app_name"
+				android:src="@drawable/overlay"
+				android:visibility="visible"
+				android:scaleType="fitXY" />
+
+			<androidhive.info.materialdesign.activity.RenexBoldCustomTextView
+				android:id="@+id/pay_tv"
+				android:padding="10dp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:text="@string/app_name"
+				android:textColor="@color/col_darkGrey"
+				android:textSize="26sp"
+				android:textStyle="bold"
+				android:gravity="center"
+				android:layout_centerVertical="true"
+				android:layout_centerHorizontal="true" />
+		</RelativeLayout>
+
+		<androidhive.info.materialdesign.activity.RenexBoldCustomTextView
+			android:id="@+id/name"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:text="@string/app_name"
+			android:textColor="@color/black"
+			android:textSize="18sp"
+			android:textStyle="bold" />
+		<androidhive.info.materialdesign.activity.RenexCustomTextView
+			android:id="@+id/short_des"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="4dp"
+			android:paddingBottom="10dp"
+			android:text="@string/app_name"
+			android:textColor="#909090"
+			android:textSize="16sp" />
+		<TextView
+			android:id="@+id/id"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:visibility="gone" />
+	</LinearLayout>
+</LinearLayout>
